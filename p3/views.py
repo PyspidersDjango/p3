@@ -9,3 +9,6 @@ def home(request):
 
 def second(request):
     return render(request,"directory/second.html")
+
+def third(request):
+    return render(request,"directory/third.html",context={'data':"Akshay",'name':"Rajappa"})

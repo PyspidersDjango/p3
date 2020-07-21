@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #TEMPLATE_DIR="D:\\Project\\p3\\templates"
 #TEMPLATE_DIR=BASE_DIR+"\\templates"
-TEMPLATE_DIR=os.path.join(BASE_DIR,"templates")
+TEMPLATE_DIR=os.path.join(BASE_DIR,"templates")#this is right way to use
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -27,7 +27,7 @@ SECRET_KEY = '_ivu#giw168$!9sabktc&p)#b+k%4*55+4g&b=_w(f+mej@)%0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.1.104"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
