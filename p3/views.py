@@ -20,3 +20,9 @@ def fourth(request):
 def fifth(request):
     return render(request,"directory/fifth.html",{'a':10,'b':5})
 
+def urls_data(request,name):
+    return HttpResponse("<h1>{}</h1>".format(name))
+
+def ab(request,a,b):
+    sum=int(a)+int(b)
+    return HttpResponse(str(sum))
